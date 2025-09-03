@@ -1,0 +1,24 @@
+{
+  "home": {
+    "title": "York GNCTR 2025",
+    "subtitle": "Great Northern Concrete Toboggan Race Team"
+  },
+  "about": {
+    "mission": "Innovation, sustainability, and teamwork in engineering design. Our team competes in the Great Northern Concrete Toboggan Race, showcasing York University’s engineering talent."
+  },
+  "contact": {
+    "email": "yorkgnctr@gmail.com",
+    "instagram": "https://instagram.com/yorkgnctr",
+    "linkedin": "https://linkedin.com/company/york-gnctr"
+  },
+  "contactForm": {
+    "title": "Get in Touch",
+    "description": "Have questions about our team, events, or partnerships? Send us a message below!",
+    "endpoint": "https://formspree.io/f/yourContactFormID"
+  },
+  "sponsorForm": {
+    "title": "Sponsor Our Team",
+    "description": "Interested in supporting York GNCTR? Fill out the form below and we’ll be in touch!",
+    "endpoint": "https://formspree.io/f/yourSponsorFormID"
+  }
+}
