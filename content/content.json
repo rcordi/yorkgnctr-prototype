@@ -1,24 +1,109 @@
 {
-  "home": {
-    "title": "York GNCTR 2025",
-    "subtitle": "Great Northern Concrete Toboggan Race Team"
+  "site": {
+    "title": "York GNCTR",
+    "navbar": ["Home", "Sponsors", "Contact"],
+    "ctaText": "Join Team",
+    "ctaLink": "/contact"
   },
-  "about": {
-    "mission": "Innovation, sustainability, and teamwork in engineering design. Our team competes in the Great Northern Concrete Toboggan Race, showcasing York University’s engineering talent."
+  "hero": {
+    "title": "York University GNCTR",
+    "subtitle": "Building the future of student technology and research.",
+    "image": "hero.jpg"
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "members": [
+      {
+        "name": "Alice Johnson",
+        "role": "President",
+        "image": "alice.jpg"
+      },
+      {
+        "name": "Bob Smith",
+        "role": "Vice President",
+        "image": "bob.jpg"
+      },
+      {
+        "name": "Carmen Lee",
+        "role": "Project Lead",
+        "image": "carmen.jpg"
+      },
+      {
+        "name": "David Kim",
+        "role": "Marketing Director",
+        "image": "david.jpg"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Our Projects",
+    "list": [
+      {
+        "title": "Autonomous Drone",
+        "description": "A student-built drone that navigates using AI.",
+        "image": "project1.jpg"
+      },
+      {
+        "title": "Robotics Competition",
+        "description": "Designing and programming a robot for national competitions.",
+        "image": "project2.jpg"
+      },
+      {
+        "title": "Smart Campus App",
+        "description": "An app connecting students with campus events and resources.",
+        "image": "project3.jpg"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "images": [
+      "gallery1.jpg",
+      "gallery2.jpg",
+      "gallery3.jpg",
+      "gallery4.jpg"
+    ]
+  },
+  "sponsors": {
+    "title": "Our Sponsors",
+    "ctaText": "View All Sponsors",
+    "list": [
+      {
+        "name": "Sponsor One",
+        "logo": "sponsor1.png"
+      },
+      {
+        "name": "Sponsor Two",
+        "logo": "sponsor2.png"
+      },
+      {
+        "name": "Sponsor Three",
+        "logo": "sponsor3.png"
+      }
+    ]
   },
   "contact": {
-    "email": "yorkgnctr@gmail.com",
-    "instagram": "https://instagram.com/yorkgnctr",
-    "linkedin": "https://linkedin.com/company/york-gnctr"
+    "address": "123 York University, Toronto, ON",
+    "email": "team@yorkgnctr.ca",
+    "social": {
+      "instagram": "https://instagram.com/yorkgnctr",
+      "facebook": "https://facebook.com/yorkgnctr"
+    },
+    "mailingList": {
+      "title": "Join Our Mailing List",
+      "description": "Enter your email to receive updates and news from York GNCTR.",
+      "buttonText": "Subscribe"
+    }
   },
-  "contactForm": {
-    "title": "Get in Touch",
-    "description": "Have questions about our team, events, or partnerships? Send us a message below!",
-    "endpoint": "https://formspree.io/f/yourContactFormID"
-  },
-  "sponsorForm": {
-    "title": "Sponsor Our Team",
-    "description": "Interested in supporting York GNCTR? Fill out the form below and we’ll be in touch!",
-    "endpoint": "https://formspree.io/f/yourSponsorFormID"
+  "contactPage": {
+    "heroTitle": "Contact Us",
+    "sectionTitle": "Get in Touch",
+    "sectionSubtitle": "Have questions, want to sponsor, or join our team? Reach out!",
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "messagePlaceholder": "Your Message",
+      "submitText": "Send Message"
+    }
   }
 }
