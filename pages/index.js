@@ -1,10 +1,24 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
+import Hero from "../components/Hero";
+import TeamIntro from "../components/TeamIntro";
+import ProjectDetails from "../components/ProjectDetails";
+import Gallery from "../components/Gallery";
 import content from "../content/content.json";
 
 export default function Home() {
   return (
-    <section className="text-center py-20">
-      <h1 className="text-5xl font-bold text-red-700">{content.home.title}</h1>
-      <p className="mt-4 text-xl text-gray-700">{content.home.subtitle}</p>
-    </section>
+    <>
+      <Navbar content={content} />
+      <ScrollToTop />
+      <main className="pt-20">
+        <Hero content={content} />
+        <TeamIntro content={content} />
+        <ProjectDetails content={content} />
+        <Gallery content={content} />
+      </main>
+      <Footer content={content} />
+    </>
   );
 }

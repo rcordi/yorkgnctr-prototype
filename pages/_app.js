@@ -1,16 +1,18 @@
+// pages/_app.js
 import "../styles/globals.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import { AnimatePresence } from "framer-motion";
+import MotionSection from "../components/MotionSection";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="flex-grow">
+    <AnimatePresence mode="wait">
+      <MotionSection
+        keyProp={router.route}
+        className="bg-light text-dark min-h-screen"
+      >
         <Component {...pageProps} />
-      </main>
-      <Footer />
-    </div>
+      </MotionSection>
+    </AnimatePresence>
   );
 }
 
